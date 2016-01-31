@@ -1,0 +1,15 @@
+---
+layout: default
+---
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<div class="post">
+
+  <section>
+    <h2>{{ page.title }}</h2>
+    <small>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</small><p>
+
+    {{ content }}
+  </section>
+
+</div>
