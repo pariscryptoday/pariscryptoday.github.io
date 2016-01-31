@@ -7,6 +7,11 @@ body {
   font-weight:350;
 }
 
+.emdash {
+    margin: 0 0 0 -44px;
+    padding: 0 7px 0 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color:#111;
   margin:0 0 20px;
@@ -104,10 +109,16 @@ img {
   max-width:100%;
 }
 
-top {
+banner {
   width:860px;
   margin:0 auto;
   clear: left;
+}
+
+section {
+  width:550px;
+  float:left;
+  padding-bottom:50px;
 }
 
 nav {
@@ -197,12 +208,6 @@ nav ul a strong {
   color:#222;
 }
 
-section {
-  width:550px;
-  float:left;
-  padding-bottom:50px;
-}
-
 small {
   font-size:11px;
 }
@@ -227,14 +232,10 @@ footer {
     margin:0;
   }
   
-  nav, section, footer {
+  section, nav, footer {
     float:none;
-    position:static;
+    !position:static;
     width:auto;
-  }
-  
-  nav {
-    padding-right:320px;
   }
   
   section {
@@ -244,12 +245,16 @@ footer {
     margin:0 0 20px;
   }
   
+  nav {
+    padding-right:320px;
+  }
+  
   nav a small {
     display:inline;
   }
   
   nav ul {
-    position:absolute;
+    !position:absolute;
     right:50px;
     top:52px;
   }
@@ -265,7 +270,7 @@ footer {
   }
   
   nav ul, nav p.view {
-    position:static;
+    !position:static;
   }
   
   pre, code {

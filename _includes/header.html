@@ -1,7 +1,6 @@
-<div class="wrapper">
-  <top>
-    <h1>{{ site.title }}</h1>
-    <p>{{ site.description }}</p>
+  <banner>
+    <h1 style="margin:0 0 6px"><!--<span class="emdash">&mdash;</span>--> {{ site.title }}</h1>
+    <p style="margin:0 0 8px">{{ site.description }}</p>
     <a class="page-link" href="{{ site.url }}">Home</a>
     {% for page in site.pages %}
       {% if page.title %}
@@ -9,7 +8,7 @@
       {% endif %}
     {% endfor %}
     <p>
-  </top>
+  </banner>
   <nav>
     <h3>Archives</h3>
     {% for post in site.posts %}
