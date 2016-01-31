@@ -9,13 +9,6 @@
     {% endfor %}
     <p>
   </banner>
-  <nav>
-    <h3>Archives</h3>
-    {% for post in site.posts %}
-      {{ post.date | date: "%b %Y" }}<br>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
-    {% endfor %}
-  </nav>
 
 
 

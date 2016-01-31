@@ -5,8 +5,8 @@ permalink: /about/
 ---
 
 **Organizers.**
-Michel Abdalla and Hoeteck Wee (ENS)
+Michel Abdalla and Hoeteck Wee ([ENS](https://crypto.di.ens.fr/web2py))
 
-**History.**
-The [New York Area Crypto Day](https://nycryptoday.wordpress.com/) was conceived in early 2010 by Tal, Guy and Hoeteck. There are now similar events in the [Boston area](https://bostoncryptoday.wordpress.com), [DC area](https://dcareacryptoday.wordpress.com/), and the [Bay area](https://sites.google.com/site/bayareacryptoday).
+**Related events.**
+[New York Crypto Day](https://nycryptoday.wordpress.com/) | [Boston area](https://bostoncryptoday.wordpress.com) | [DC area](https://dcareacryptoday.wordpress.com/) | [Bay area](https://sites.google.com/site/bayareacryptoday) | [Tel Aviv area](http://www.cs.tau.ac.il/cseminar/) | [Lattice meetings](http://perso.ens-lyon.fr/damien.stehle/LATTICE_MEETINGS.html)
 
