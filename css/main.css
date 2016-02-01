@@ -1,10 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700italic,700);
 
 body {
+  background-color: #fff;
   padding:50px;
-  font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#000;
-  font-weight:350;
+  font:16px/1.5 "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#555;
+  font-weight:400;
 }
 
 .emdash {
@@ -119,11 +120,18 @@ section {
   width:550px;
   float:left;
   padding-bottom:50px;
+  border:1px solid #e5e5e5;
+  border-width:1px 0;
+  padding-top:20px;
 }
 
 nav {
   width:270px;
   float:right;
+  padding-bottom:30px;
+  border:1px solid #e5e5e5;
+  border-width:1px 0;
+  padding-top:20px;
 }
 
 nav ul {
@@ -188,7 +196,7 @@ nav ul a:active {
 }
 
 strong {
-  color:#222;
+  color:#333333;
   font-weight:700;
 }
 
@@ -227,6 +235,18 @@ footer {
 
 @media print, screen and (max-width: 960px) {
   
+  h1 {
+    font-size:24px;
+  }
+
+ h2 {
+  font-size:20px;
+ }
+ 
+  body {
+      font:14px/1.5 "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
   div.wrapper {
     width:auto;
     margin:0;
@@ -246,7 +266,8 @@ footer {
   }
   
   nav {
-    padding-right:320px;
+      padding-right:320px;
+      border: none
   }
   
   nav a small {
@@ -267,6 +288,7 @@ footer {
   
   nav {
     padding:0;
+    padding-bottom:10px;
   }
   
   nav ul, nav p.view {
