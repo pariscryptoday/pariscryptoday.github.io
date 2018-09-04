@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 **Organizers.**
-Michel Abdalla and Hoeteck Wee ([ENS](https://crypto.di.ens.fr/web2py))
+Michel Abdalla, Georg Fuchsbauer, and Hoeteck Wee ([ENS](https://crypto.di.ens.fr/web2py))
 
 **Acknowledgements.** ERC [CryptoCloud](http://www.di.ens.fr/~pointche/CryptoCloud/) and [aSCEND](http://cordis.europa.eu/project/rcn/193658_en.html)
 
